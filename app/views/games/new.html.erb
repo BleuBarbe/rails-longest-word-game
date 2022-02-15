@@ -1,0 +1,13 @@
+<h1>New Game</h1>
+
+<p><%= @letters.join%></p>
+
+<p>what is the longest word you can find ?</p>
+
+<form action="???">
+<%# doit envoyer la requête (POST) à l’action /score dans le GamesController. %>
+  <input type="hidden" name="authenticity_token">
+  <input type="text" name="???">
+  <input type="submit" value="Play!">
+  <%# <%= hidden_field_tag :authenticity_token, form_authenticity_token %> %>
+</form>
